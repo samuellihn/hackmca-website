@@ -1,0 +1,105 @@
+@use "variables"
+.site
+  box-sizing: border-box
+  width: 100%
+
+.home-screen
+  height: 100vh
+  width: 100%
+  display: flex
+  background: variables.$light
+  color: variables.$dark
+  &-inner
+    width: 100%
+    justify-self: center
+    align-self: center
+
+  h1
+    font-size: 3.5em
+    text-align: center
+    margin: 0.25em 0
+    font-weight: 600
+  h2
+    font-size: 2.5em
+    text-align: center
+    margin: 0.2em 0
+    font-weight: 500
+  img
+    height: 6em
+    margin: 0 auto
+    justify-self: center
+  .fancy-list
+    font-size: 1.5em
+    span
+      svg
+        height: 0.7em
+        padding: 0.15em 0.4em 0.15em 0.15em
+        color: variables.$accent
+  text-align: center
+
+.centered-v
+  width: 100%
+  align-self: center
+
+.centered-h
+  width: 100%
+  display: flex
+  justify-self: center
+
+
+.fancy-list
+  display: flex
+  flex-direction: column
+  row-gap: 0.1em
+
+.content-section
+  background: variables.$accent
+  color: variables.$dark
+  &-yellow
+    background: variables.$accent
+    color: variables.$dark
+  &-light
+    background: variables.$light
+    color: variables.$dark
+  &-dark
+    background: variables.$dark
+    color: variables.$light
+
+  text-align: center
+  width: 100%
+  padding: 2em 0
+  overflow: clip
+  &-inner
+    margin: 0 auto
+    width: 80%
+    max-width: 80em
+
+  h1
+    font-size: 3.5em
+    text-align: center
+    margin: 0.25em 0
+    padding: 0 0
+    font-weight: 600
+  h2
+    font-size: 2.5em
+    text-align: center
+    margin: 0.25em 0
+    padding: 0 0
+    font-weight: 600
+  p
+    font-size: 1.5em
+
+  .expander-group
+    padding: 2em 0
+    hr
+      border: 1px solid variables.$dark
+  .fancy-list
+    font-size: 1.5em
+    font-weight: 600
+    row-gap: 0.2em
+    margin: 2em 0
+    span
+      svg
+        height: 0.8em
+        padding: 0.1em 0.4em 0.1em 0.2em
+
