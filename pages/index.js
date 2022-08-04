@@ -25,7 +25,7 @@ export default function Home() {
                     <div className={styles["centered-v"]}>
                         <h2>The First Annual</h2>
                         <div className={styles["centered-h"]}>
-                            <img src={"HACKMCA Logo.svg"} alt={"HackMCA Logo"}></img>
+                            <img src={"hackmca-logo.svg"} alt={"HackMCA Logo"}></img>
                         </div>
                         <h1>Hackathon</h1>
                     </div>
@@ -50,7 +50,9 @@ export default function Home() {
                             <span><FontAwesomeIcon
                                 icon={faMapLocationDot}/><b>Venue:</b> Middlesex County College</span>
                         </div>
-                        <Button href={"about:blank"} displayText={"Sign up now!"}/>
+                        <p><b>Signups will open in a few weeks. Fill out this form and we&apos;ll send you an email once
+                            they&apos;re open!</b></p>
+                        <Button href={"signup"} displayText={"Interest Form"}/>
                     </div>
                 </div>
             </div>

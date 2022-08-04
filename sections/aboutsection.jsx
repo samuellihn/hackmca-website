@@ -12,7 +12,7 @@ export default function AboutSection({id}) {
                     and recently we've branched into hosting events such as the Middlesex County Academy Informatics
                     Competition. Now we're hosting our first ever hackathon, and we're just as excited about it as
                     you are!</p>
-                <img src={"MCACS Logo.svg"} className={styles["section-logo"]}></img>
+                <img src={"mcacs-logo.svg"} className={styles["section-logo"]}></img>
                 {/*<h2>Our Team</h2>*/}
                 {/*<div className={styles["team-gallery"]}>*/}
                 {/*    <TeamProfile name={"Samuel Lihn"} title={"Co-president"} imgSrc={"team/img.png"}><p>I'm a*/}
