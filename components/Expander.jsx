@@ -1,18 +1,20 @@
 import styles from '../styles/Expander.module.sass'
 import {Component} from "react";
 
-export default class Expander extends Component {
-    constructor(props) {
+export default class Expander extends Component
+{
+    constructor(props)
+    {
         super(props);
-        this.state = {
+        this.state =
+        {
             collapsed: true
         }
     }
-
-    render() {
+    render()
+    {
         return (
             <div className={styles.expander}>
-                <hr/>
                 <div className={styles.header} onClick={() => this.setState({collapsed: !this.state.collapsed})}>
                     <h1>{this.props.titleText}</h1>
                 </div>
@@ -20,12 +22,12 @@ export default class Expander extends Component {
                     this.state.collapsed ?
                         <div/>
                         :
-                        <div>
+                                        
+
+                        <div className={styles.text}>
                             {this.props.children}
                         </div>
                 }
-
-
             </div>
         )
     }
