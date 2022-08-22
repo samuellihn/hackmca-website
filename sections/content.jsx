@@ -14,7 +14,7 @@ export default function HomeSection({id}) {
                     <div className={styles["fancy-list"]}>
                         <span><FontAwesomeIcon icon={faCalendar}/><b>Date:</b> October 1st, 2022</span>
                         <span><FontAwesomeIcon icon={faClock}/><b>Time:</b> 8 am - 9 pm</span>
-                        <span><FontAwesomeIcon icon={faMapLocationDot}/><b>Venue:</b> Middlesex County College</span>
+                        <span><FontAwesomeIcon icon={faMapLocationDot}/><b>Venue:</b> Middlesex College</span>
                     </div>
                     <p><b>Signups will open in a few weeks. Fill out this form and we&apos;ll send you an email once they&apos;re open!</b></p>
                     <Button href={"signup"} displayText={"Interest Form"}/>
