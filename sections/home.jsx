@@ -17,7 +17,7 @@ export default function HomeSection({id}) {
                 <div className={styles["fancy-list"]}>
                     <span><FontAwesomeIcon icon={faCalendar}/>October 1st, 2022</span>
                     <span><FontAwesomeIcon icon={faClock}/>8 am - 9 pm</span>
-                    <span><FontAwesomeIcon icon={faMapLocationDot}/>Middlesex County College</span>
+                    <span><FontAwesomeIcon icon={faMapLocationDot}/>Middlesex College</span>
                 </div>
             </div>
         </div>

@@ -37,7 +37,7 @@ export default function FaqSection({id}) {
                     </Expander>
                     <hr/>
                     <Expander titleText={"How do I get to the venue?"}>
-                        HackMCA will take place at the Middlesex County College in Edison, NJ. Make sure to arrange
+                        HackMCA will take place at the Middlesex College in Edison, NJ. Make sure to arrange
                         a means of transportation (a parent/guardian dropping you off) for drop-off and pick-up. It
                         is very important that your transportation arrives on time! More information will be
                         provided via email.
