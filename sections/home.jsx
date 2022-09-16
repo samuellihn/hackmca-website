@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.sass'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faClock, faCalendar} from "@fortawesome/free-regular-svg-icons";
 import {faMapLocationDot} from "@fortawesome/free-solid-svg-icons";
+import {Venue, Time, Date} from "../data/variables";
 
 export default function HomeSection({id}) {
     return (
@@ -15,9 +16,9 @@ export default function HomeSection({id}) {
                     <h1>Hackathon</h1>
                 </div>
                 <div className={styles["fancy-list"]}>
-                    <span><FontAwesomeIcon icon={faCalendar}/>October 1st, 2022</span>
-                    <span><FontAwesomeIcon icon={faClock}/>8 am - 9 pm</span>
-                    <span><FontAwesomeIcon icon={faMapLocationDot}/>Middlesex College</span>
+                    <span><FontAwesomeIcon icon={faCalendar}/>{Date}</span>
+                    <span><FontAwesomeIcon icon={faClock}/>{Time}</span>
+                    <span><FontAwesomeIcon icon={faMapLocationDot}/>{Venue}</span>
                 </div>
             </div>
         </div>
