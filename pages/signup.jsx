@@ -1,16 +1,16 @@
 import styles from "../styles/Home.module.sass";
 import Head from "next/head";
-
+import {SignupLink} from "../data/variables";
 
 export default function Signup() {
     return (
         <div className={styles["site"]}>
             <Head>
-                <link rel="canonical" href="https://hackmca.info/signup"/>
+                <link rel="canonical" href={SignupLink}/>
                 <meta property="og:title" content="Signup | HackMCA Hackathon"/>
             </Head>
-            <meta httpEquiv="refresh" content=" 0 ; url = https://forms.gle/dj6ywUiDLpASmhYJ7"/>
-            <a href="https://forms.gle/dj6ywUiDLpASmhYJ7">Go to redirect</a>
+            <meta httpEquiv="refresh" content={`0 ; url = ${SignupLink}`}/>
+            <a href={SignupLink}>Go to redirect</a>
         </div>
     )
 }

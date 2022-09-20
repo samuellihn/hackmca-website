@@ -17,8 +17,8 @@ export default function HomeSection({id}) {
                         <span><FontAwesomeIcon icon={faClock}/><b>Time:</b> {Time}</span>
                         <span><FontAwesomeIcon icon={faMapLocationDot}/><b>Venue:</b> {Venue}</span>
                     </div>
-                    <p><b>Signups will open in a few weeks. Fill out this form and we&apos;ll send you an email once they&apos;re open!</b></p>
-                    <Button href={"signup"} displayText={"Interest Form"}/>
+                    <p><b>Signups are open now! You can sign up below through EventBrite.</b></p>
+                    <Button href={"signup"} displayText={"Sign Up Now!"}/>
                 </div>
             </div>
         </div>
