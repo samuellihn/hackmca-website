@@ -32,8 +32,8 @@ export default function FaqSection({id}) {
                     </Expander>
                     <hr/>
                     <Expander titleText={"Will food be provided?"}>
-                        Yes! Lunch and dinner will be provided, breakfast will be available for purchase. Snacks and
-                        additional food will also be available for purchase.
+                        Food is available for pre-order on the signup form for a cost of $20 for the day. Snacks and
+                        drinks will also be sold at the event.
                     </Expander>
                     <hr/>
                     <Expander titleText={"How do I get to the venue?"}>
