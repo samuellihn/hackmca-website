@@ -3,6 +3,8 @@ import Head from "next/head";
 import HomeSection from "../sections/home";
 import ContentSection from "../sections/content";
 import SponsorsSection from "../sections/sponsors";
+import SpeakersSection from "../sections/speakers";
+import WorkshopsSection from "../sections/workshops";
 import FaqSection from "../sections/faq";
 import AboutSection from "../sections/about";
 
@@ -21,6 +23,8 @@ export default function Home() {
             <HomeSection/>
             <ContentSection/>
             <SponsorsSection/>
+            <SpeakersSection/>
+            <WorkshopsSection/>
             <FaqSection/>
             <AboutSection/>
         </div>
