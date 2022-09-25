@@ -21,7 +21,7 @@ export default function Home() {
                 <meta property="og:image:height" content="1080px"/>
             </Head>
             <HomeSection/>
-            <ContentSection/>
+            <ContentSection id={"contentSection"}/>
             <SponsorsSection/>
             <SpeakersSection/>
             <WorkshopsSection/>
