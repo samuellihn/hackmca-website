@@ -18,6 +18,8 @@ export default function HomeSection({id}) {
                         <span><FontAwesomeIcon icon={faMapLocationDot}/><b>Venue:</b> {Venue}</span>
                     </div>
                     <p><b>Signups are open now! You can sign up below through EventBrite.</b></p>
+                    <p>Registration costs $10 and will give you admission to the event.</p>
+                    <p>Breakfast, lunch, and dinner can be purchased for $20 total. ($15 for cash payments for EAMS students)</p>
                     <Button href={"signup"} displayText={"Sign Up Now!"}/>
                 </div>
             </div>
