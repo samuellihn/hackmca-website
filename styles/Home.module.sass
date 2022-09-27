@@ -17,7 +17,6 @@
     align-self: center
     & .fancy-list
       margin-bottom: 2em
-
   h1
     font-size: 3em
     text-align: center
@@ -39,6 +38,10 @@
         height: 0.7em
         padding: 0.15em 0.4em 0.15em 0.15em
         color: variables.$accent
+  .buttons
+    display: flex
+    justify-content: center
+    margin: 1em 1em
   text-align: center
 
 .centered-v
@@ -128,9 +131,9 @@
     justify-content: center
 .learn-more
   color: color.adjust(variables.$dark, $whiteness: 100%)
-  position: absolute
+  position: center
   bottom: 0
-  width: 100%
+  width: 50%
   padding-bottom: 5%
   a
     color: inherit

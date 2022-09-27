@@ -21,13 +21,9 @@ export default function HomeSection({id}) {
                     <span><FontAwesomeIcon icon={faClock}/>{Time}</span>
                     <span><FontAwesomeIcon icon={faMapLocationDot}/>{Venue}</span>
                 </div>
+                <div className={styles["buttons"]}>
                 <Button href={"signup"} displayText={"Sign Up Now!"} light={true}/>
-                <div className={styles["learn-more"]}>
-                    <a href={"#contentSection"}>
-                        <h1>Learn More</h1>
-                        <FontAwesomeIcon icon={faChevronDown}/>
-                    </a>
-
+                <Button href={"#contentSection"} displayText={"Learn More!"} light={false}/>
                 </div>
             </div>
         </div>
