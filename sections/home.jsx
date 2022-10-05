@@ -1,10 +1,9 @@
 import styles from '../styles/Home.module.sass'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faClock, faCalendar} from "@fortawesome/free-regular-svg-icons";
-import {faMapLocationDot, faChevronDown} from "@fortawesome/free-solid-svg-icons";
+import {faMapLocationDot} from "@fortawesome/free-solid-svg-icons";
 import {Venue, Time, Date} from "../data/variables";
 import Button from "../components/Button";
-
 export default function HomeSection({id}) {
     return (
         <div className={styles["home-screen"]}>
@@ -22,9 +21,10 @@ export default function HomeSection({id}) {
                     <span><FontAwesomeIcon icon={faMapLocationDot}/>{Venue}</span>
                 </div>
                 <div className={styles["buttons"]}>
-                <Button href={"signup"} displayText={"Sign Up Now!"} light={true}/>
-                <Button href={"#contentSection"} displayText={"Learn More!"} light={false}/>
+                <Button href={"signup"} displayText={"Sign Up by Oct 10th!"} light={true}/>
+                <Button href={"#contentSection"} displayText={"Learn About HackMCA"} light={true}/>
                 </div>
+                <Button href={"submit-waiver"} displayText={"Safety Waiver"} light={false}/>
             </div>
         </div>
     )

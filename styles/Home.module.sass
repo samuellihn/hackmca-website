@@ -1,10 +1,8 @@
 @use "variables"
 @use "sass:color"
-
 .site
   box-sizing: border-box
   width: 100%
-
 .home-screen
   height: 100vh
   width: 100%
@@ -43,22 +41,17 @@
     justify-content: center
     margin: 1em 1em
   text-align: center
-
 .centered-v
   width: 100%
   align-self: center
-
 .centered-h
   width: 100%
   display: flex
   justify-self: center
-
-
 .fancy-list
   display: flex
   flex-direction: column
-  row-gap: 0.1em
-
+  row-gap: 0.2em
 .content-section
   background: variables.$accent
   color: variables.$dark
@@ -71,7 +64,6 @@
   &-dark
     background: variables.$dark
     color: variables.$light
-
   text-align: center
   width: 100%
   padding: 2em 0
@@ -83,7 +75,7 @@
     &-workshops
       text-align: left
   h1
-    font-size: 3em
+    font-size: max(2em, 4vw)
     text-align: center
     margin: 0.25em 0
     padding: 0 0
@@ -115,12 +107,11 @@
     font-size: 1.5em
     font-weight: 600
     row-gap: 0.2em
-    margin: 2em 0
+    margin: 2em 0 0 0
     span
       svg
         height: 0.8em
         padding: 0.1em 0.4em 0.1em 0.2em
-
 .sign-up-choice
   display: flex
   justify-self: center
@@ -139,7 +130,6 @@
     color: inherit
     text-decoration: none
     cursor: pointer
-
   h1
     font-size: 2.5em
     font-weight: 300

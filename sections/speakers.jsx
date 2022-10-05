@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.sass'
-
 export default function SpeakersSection({id}) {
     return (
         <div className={[styles["content-section-yellow"], styles["content-section"]].join(" ")} id={id}>
