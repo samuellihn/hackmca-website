@@ -7,7 +7,9 @@ import SpeakersSection from "../sections/speakers";
 import WorkshopsSection from "../sections/workshops";
 import FaqSection from "../sections/faq";
 import AboutSection from "../sections/about";
-
+import ContactsSection from '../sections/contacts';
+import RegistrationSection from '../sections/registration'
+import ScheduleSection from '../sections/schedule';
 export default function Home() {
     return (
         <div className={styles["site"]}>
@@ -20,13 +22,16 @@ export default function Home() {
                 <meta property="og:image:width" content="1920px"/>
                 <meta property="og:image:height" content="1080px"/>
             </Head>
-            <HomeSection/>
-            <ContentSection id={"contentSection"}/>
-            <SponsorsSection/>
-            <SpeakersSection/>
-            <WorkshopsSection/>
-            <FaqSection/>
-            <AboutSection/>
+            <HomeSection id="homeSection"/>
+            <ContentSection id="contentSection"/>
+            <RegistrationSection id="registrationSection"/>
+            <ScheduleSection id="scheduleSection"/>
+            <SponsorsSection id="sponsorsSection"/>
+            <SpeakersSection id="speakersSection"/>
+            <WorkshopsSection id="workshopsSection"/>
+            <FaqSection id="faqSection"/>
+            <AboutSection id="aboutSection"/>
+            <ContactsSection id="contactsSection"/>
         </div>
     )
 }

@@ -1,8 +1,6 @@
 import styles from "../styles/Home.module.sass";
 import Head from "next/head";
 import {SubmitWaiverLink} from "../data/variables";
-
-
 export default function SubmitWaiver() {
     return (
         <div className={styles["site"]}>

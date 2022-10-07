@@ -1,27 +1,25 @@
 @use "variables"
-
 .button
-  padding: 2em 0
+  padding: 1em 0.5em
   a
     background: variables.$dark
     color: variables.$light
     padding: 1em
-    font-size: 1.5em
+    font-size: min(100%, 3vw)
+    border-radius: 10%
     text-decoration: none
     font-weight: 600
     &:hover
       text-decoration: underline
-
-
 .button-light
-  padding: 2em 0
+  padding: 1em 0.5em
   a
     background: variables.$accent
     color: variables.$dark
     padding: 1em
-    font-size: 1.5em
+    border-radius: 10%
+    font-size: min(100%, 3vw)
     text-decoration: none
     font-weight: 600
     &:hover
       text-decoration: underline
-
