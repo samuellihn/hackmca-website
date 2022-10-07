@@ -7,10 +7,10 @@ export default function SubmitWaiver() {
     return (
         <div className={styles["site"]}>
             <Head>
-                <link rel="canonical" href={SubmitWaiverLink}/>
-                <meta property="og:title" content="Submit Safety Waiver | HackMCA Hackathon"/>
+                <link rel="canonical" href={"safety-waiver.pdf"}/>
+                <meta property="og:title" content="Safety Waiver | HackMCA Hackathon"/>
             </Head>
-            <meta httpEquiv="refresh" content={`0 ; url = ${SubmitWaiverLink}`}/>
+            <meta httpEquiv="refresh" content={`0 ; url = safety-waiver.pdf`}/>
             <a href={SubmitWaiverLink}>Go to redirect</a>
         </div>
     )
