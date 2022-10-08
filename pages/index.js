@@ -27,7 +27,7 @@ export default function Home() {
             <RegistrationSection id="registrationSection"/>
             <ScheduleSection id="scheduleSection"/>
             <SponsorsSection id="sponsorsSection"/>
-            <SpeakersSection id="speakersSection"/>
+            {/*<SpeakersSection id="speakersSection"/>*/}
             <WorkshopsSection id="workshopsSection"/>
             <FaqSection id="faqSection"/>
             <AboutSection id="aboutSection"/>
